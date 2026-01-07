@@ -1,0 +1,133 @@
+# Why Radar Should Be the Anchor Sensor for Autonomous Perception in Adverse Weather
+
+Autonomous driving systems rely on multiple sensors—most commonly cameras, LiDAR, and radar—to perceive the world. Under ideal conditions, camera and LiDAR dominate perception performance. Under adverse weather, however, this hierarchy breaks down.
+
+This post argues that **radar should serve as the anchor sensor** for autonomous perception in adverse weather—not because radar is perfect, but because it degrades *differently* and *more predictably* than vision-based sensors.
+
+---
+
+## 1) Adverse weather does not affect all sensors equally
+
+Weather-induced degradation is fundamentally sensor-dependent:
+
+- **Cameras** suffer from reduced contrast, glare, motion blur, and low signal-to-noise ratio under fog, rain, snow, and night conditions.
+- **LiDAR** experiences backscatter, attenuation, and dropouts in rain and snow, leading to sparse or corrupted point returns.
+- **Radar**, operating at longer wavelengths, is largely insensitive to illumination and much less affected by fog, rain, or snow.
+
+While radar has lower spatial resolution, its **detection reliability under adverse conditions** is significantly more stable.
+
+The key observation is not that radar is “better,” but that it **fails more gracefully**.
+
+---
+
+## 2) Radar preserves the most critical information under degradation
+
+Under adverse weather, perception systems must answer a minimal set of safety-critical questions:
+- Is there an object?
+- Where is it?
+- Is it moving, and how fast?
+
+Radar directly measures:
+- range
+- relative velocity (Doppler)
+- coarse azimuth
+
+These signals remain available even when:
+- camera images are nearly unusable
+- LiDAR point clouds become sparse or noisy
+
+In other words, radar preserves *existence and motion* information when appearance and fine geometry are lost.
+
+---
+
+## 3) Stability matters more than resolution in safety-critical perception
+
+High-resolution sensing is valuable only when it is reliable.
+
+Cameras and LiDAR offer rich spatial detail, but under adverse weather their outputs can:
+- fluctuate dramatically frame-to-frame
+- exhibit non-stationary noise
+- fail catastrophically rather than gradually
+
+Radar outputs, while coarse, tend to be:
+- temporally stable
+- statistically consistent
+- less sensitive to environmental variation
+
+For downstream planning and control, **stable coarse information is often more valuable than unstable high-resolution detail**.
+
+---
+
+## 4) Radar provides a natural reference for reliability-aware fusion
+
+Because radar degrades differently from camera and LiDAR, it can act as a **reference modality** when others become unreliable.
+
+In reliability-aware fusion frameworks, radar can:
+- anchor object presence estimates
+- guide feature-level restoration in vision sensors
+- stabilize tracking under partial sensor failure
+- inform confidence weighting for downstream tasks
+
+Rather than treating radar as a fallback sensor, it should be used as a **conditioning signal** that modulates how other sensors are interpreted.
+
+---
+
+## 5) Radar is especially valuable for feature-level restoration
+
+Feature-level restoration relies on cross-modal cues to stabilize degraded representations.
+
+Radar is well suited for this role because:
+- it provides geometry and motion without relying on appearance
+- it remains available under most adverse weather conditions
+- its noise characteristics are more predictable
+
+For example:
+- radar detections can guide where camera features should be trusted
+- radar velocity cues can stabilize temporal features for tracking
+- radar presence can prevent hallucinated object creation in vision streams
+
+This makes radar a powerful guide for restoration without encouraging pixel-level hallucination.
+
+---
+
+## 6) Radar enables graceful degradation, not brittle failure
+
+A key design goal for autonomous perception is **graceful degradation**.
+
+When cameras and LiDAR degrade:
+- radar can maintain coarse scene awareness
+- uncertainty can be explicitly represented
+- perception confidence can be reduced without collapse
+
+Systems that treat radar as secondary often lose this advantage, collapsing when high-resolution sensors fail.
+
+Anchoring perception on radar enables systems to **degrade smoothly rather than fail abruptly**.
+
+---
+
+## 7) Implications for perception system design
+
+These observations suggest a shift in how multimodal perception stacks should be structured:
+
+- Radar should serve as a **stability anchor**, not a backup
+- Fusion should be **reliability-aware**, not static
+- Restoration should be **guided by robust modalities**, not dominated by fragile ones
+- High-resolution sensors should refine perception *when reliable*, not define it unconditionally
+
+In my thesis framework (SenseRegen), radar plays this anchoring role—guiding feature-level restoration and adaptive sensor weighting under adverse weather conditions.
+
+---
+
+## Takeaway
+
+Cameras and LiDAR provide rich detail when conditions are good.  
+Radar provides **reliable structure when conditions are bad**.
+
+In adverse weather, autonomous perception should be built around sensors that fail gracefully, not spectacularly. Radar’s robustness to environmental degradation makes it a natural anchor for reliability-aware fusion and restoration-driven perception.
+
+The question is no longer whether to use radar—but **how central its role should be**.
+
+---
+
+## Status
+This discussion reflects ongoing design decisions and empirical observations from multimodal autonomous perception experiments conducted as part of my PhD dissertation.
