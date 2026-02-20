@@ -10,7 +10,7 @@ Multimodal Sensor Fusion | Deep Learning | Multitask NN | Autonomous Perception 
 
 ## About
 I am a PhD researcher working on robust perception systems for autonomous vehicles under challenging weather conditions.  
-My research focuses on fusing camera, LiDAR, and radar using deep learning architectures that adapt to sensor degradation and uncertainty.
+My research focuses on fusing camera, LiDAR, and radar dynamically using deep learning architectures that adapt to sensor degradation and uncertainty.
 
 ---
 
