@@ -4,7 +4,7 @@ PhD Researcher, Electrical & Computer Engineering
 Wayne State University
 
 **Research Interests:**  
-Multimodal Sensor Fusion | Deep Learning | Multitask NN | Autonomous Perception in Adverse Weather
+Multimodal Sensor Fusion | AI | ML | Deep Learning | Multitask NN | Autonomous Perception in Adverse Weather
 
 ---
 
