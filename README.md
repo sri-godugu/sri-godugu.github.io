@@ -31,8 +31,9 @@ My research focuses on fusing camera, LiDAR, and radar dynamically using deep le
 
 ## Publications
 - *The Static Fusion Paradox: A Degradation-Centric Survey of Multimodal Perception in Adverse Weather* — IEEE IVS 2026 (Accepted)  
-- *The Architectural Parity Principle: Understanding Cross-Modal Correspondence in Multi-Modal Fusion*
-- *The Reliability Prior — Reliability under Uncertianty must precede Optimization* — ICML 2026 (Under Review)
+- *The Architectural Parity Principle: Understanding Cross-Modal Correspondence in Multi-Modal Fusion* - ECCV 2026 (Under Review)
+- *The Reliability Prior — Reliability under Uncertianty must precede Optimization* — ICML 2026 (Accepted)
+- *HYDRABOT: Entropy-Gated Multitask Imitation Learning* - IROS 2026 (Under Review)
 
 ---
 
