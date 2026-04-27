@@ -11,7 +11,8 @@ Multimodal Sensor Fusion | AI | ML | Deep Learning | Multitask NN | Autonomous P
 ## About
 I am a PhD researcher working on robust perception systems for autonomous vehicles under challenging weather conditions.  
 -	Research focuses on AI under uncertainty, Sensor Fusion, Robustness in safety critical systems, Multimodal Perception, Generative Modeling, Representation Learning and 3D Reconstruction.
--	Experienced in designing novel architectures, conducting large-scale experiments, and translating research into production-ready systems. Strong background in deep learning and multimodal architectures. Peer reviewed 10+ conference/journal papers in ML/CV. 
+-	Experienced in designing novel architectures, conducting large-scale experiments, and translating research into production-ready systems. Strong background in deep learning and multimodal architectures. Peer reviewed 10+ conference/journal papers in ML/CV.
+-	I approach problems from a **systems perspective**, designing end-to-end pipelines that combine modeling, evaluation, and real-world validation. My research explores how to make perception/AI systems more reliable, interpretable, and deployable in safety-critical environments. 
 
 ---
 
@@ -46,7 +47,7 @@ I am a PhD researcher working on robust perception systems for autonomous vehicl
 
 ### Tracking & State Estimation
 🔹 Multi-Object Tracking (DeepSORT-style)
-- Tracking pipeline combining motion (Kalman filter) and appearance embeddings  👉 [View Repository](https://github.com/sri-godugu/multi-object-tracking-motion-appearance-fusion)
+- Tracking pipeline combining motion (Kalman filter) and appearance embeddings for robust identity tracking under occlusion 👉 [View Repository](https://github.com/sri-godugu/multi-object-tracking-motion-appearance-fusion)
 
 🔹 MDP + Kalman Filtering
 - Decision instability under perception uncertainty 👉 [View Repository](https://github.com/sri-godugu/mdp-kf-uncertainty)
@@ -65,19 +66,19 @@ Structure-from-Motion pipeline for reconstructing 3D scenes from multi-view imag
 ---
 
 ### Multimodal & Foundation Models
-🔹Gen-Align
+🔹 Gen-Align
 - JAX/Flax framework for aligning generative models (SFT, RLHF, DPO) 👉 [View Repository](https://github.com/sri-godugu/gen-align)
 
-🔹VLM Prompting Toolkit
+🔹 VLM Prompting Toolkit
 - Benchmarking prompting strategies across GPT-4o, LLaVA, BLIP-2 👉 [View Repository](https://github.com/sri-godugu/vlm-prompting-toolkit)
 
 ---
 
 ### Audio & NLP systems
-🔹Speech Recognition Pipeline
+🔹 Speech Recognition Pipeline
 - Whisper-based real-time transcription 👉 [View Repository](https://github.com/sri-godugu/speech-recognition-transcription-pipeline)
 
-🔹Neural TTS
+🔹 Neural TTS
 - VITS-style text-to-speech with speaker conditioning 👉 [View Repository](https://github.com/sri-godugu/neural-tts-audio-generation)
 
 ---
@@ -85,7 +86,7 @@ Structure-from-Motion pipeline for reconstructing 3D scenes from multi-view imag
 ## Publications
 - *The Static Fusion Paradox: A Degradation-Centric Survey of Multimodal Perception in Adverse Weather* — IEEE IVS 2026 (Accepted)  
 - *The Architectural Parity Principle: Understanding Cross-Modal Correspondence in Multi-Modal Fusion* - ECCV 2026 (Under Review)
-- *The Reliability Prior — Reliability under Uncertianty must precede Optimization* — ICML 2026 (Positive Reviews)
+- *The Reliability Prior — Reliability under Uncertainty must precede Optimization* — ICML 2026 (Positive Reviews)
 - *HYDRABOT: Entropy-Gated Multitask Imitation Learning* - IROS 2026 (Under Review)
 
 ---
