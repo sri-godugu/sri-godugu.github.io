@@ -65,9 +65,6 @@ Structure-from-Motion pipeline for reconstructing 3D scenes from multi-view imag
 ---
 
 ### Multimodal & Foundation Models
-🔹 Multitask Learning (HydraNet)
-- Multi-head architecture for detection, segmentation, and depth estimation 👉 [View Repository](https://github.com/sri-godugu/multitask-learning-and-sensor-fusion-using-hydranets)
-
 🔹Gen-Align
 - JAX/Flax framework for aligning generative models (SFT, RLHF, DPO) 👉 [View Repository](https://github.com/sri-godugu/gen-align)
 
