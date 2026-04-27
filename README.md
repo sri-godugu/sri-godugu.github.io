@@ -34,66 +34,54 @@ I am a PhD researcher working on robust perception systems for autonomous vehicl
 
 ### Multimodal Fusion & Robust Perception
 🔹 Clear-Gen: Multimodal Reconstruction for Robust Perception
-- Deep learning framework to reconstruct clean visual representations from degraded camera inputs using LiDAR BEV and radar   
-👉 [View Repository](https://github.com/sri-godugu/clear-gen-multimodal-reconstruction)
+- Deep learning framework to reconstruct clean visual representations from degraded camera inputs using LiDAR BEV and radar   👉 [View Repository](https://github.com/sri-godugu/clear-gen-multimodal-reconstruction)
 
 🔹 HydraNet Multitask Learning
-- Multi-head perception (detection, segmentation, depth, localization)  
-👉 [View Repository](https://github.com/sri-godugu/multitask-learning-and-sensor-fusion-using-hydranets)
+- Multi-head perception (detection, segmentation, depth, localization) 👉 [View Repository](https://github.com/sri-godugu/multitask-learning-and-sensor-fusion-using-hydranets)
 
 🔹 Sensor Fusion Benchmarking
-- Evaluating robustness under weather corruptions
-👉 [View Repository](https://github.com/sri-godugu/weather-robustness-benchmark)
+- Evaluating robustness under weather corruptions 👉 [View Repository](https://github.com/sri-godugu/weather-robustness-benchmark)
 
 ---
 
 ### Tracking & State Estimation
 🔹 Multi-Object Tracking (DeepSORT-style)
-- Tracking pipeline combining motion (Kalman filter) and appearance embeddings  
-👉 [View Repository](https://github.com/sri-godugu/multi-object-tracking-motion-appearance-fusion)
+- Tracking pipeline combining motion (Kalman filter) and appearance embeddings  👉 [View Repository](https://github.com/sri-godugu/multi-object-tracking-motion-appearance-fusion)
 
 🔹 MDP + Kalman Filtering
-- Decision instability under perception uncertainty
-👉 [View Repository](https://github.com/sri-godugu/mdp-kf-uncertainty)
+- Decision instability under perception uncertainty 👉 [View Repository](https://github.com/sri-godugu/mdp-kf-uncertainty)
 
 ---
 
 ### 3D Perception & Geometry
 🔹 Visual Odometry (SLAM)
 - Feature-based visual odometry using ORB + RANSAC + pose estimation  
-- Robust localization under noisy feature correspondences  
-👉 [View Repository](https://github.com/sri-godugu/visual-odometry-pose-estimation)
+- Robust localization under noisy feature correspondences 👉 [View Repository](https://github.com/sri-godugu/visual-odometry-pose-estimation)
 
 🔹 Multi-View 3D Reconstruction (SfM)
 Structure-from-Motion pipeline for reconstructing 3D scenes from multi-view images  
-- Feature matching, triangulation, bundle adjustment  
-👉 [View Repository](https://github.com/sri-godugu/multi-view-3d-reconstruction)
+- Feature matching, triangulation, bundle adjustment 👉 [View Repository](https://github.com/sri-godugu/multi-view-3d-reconstruction)
 
 ---
 
 ### Multimodal & Foundation Models
 🔹 Multitask Learning (HydraNet)
-- Multi-head architecture for detection, segmentation, and depth estimation  
-👉 [View Repository](https://github.com/sri-godugu/multitask-learning-and-sensor-fusion-using-hydranets)
+- Multi-head architecture for detection, segmentation, and depth estimation 👉 [View Repository](https://github.com/sri-godugu/multitask-learning-and-sensor-fusion-using-hydranets)
 
 🔹Gen-Align
-- JAX/Flax framework for aligning generative models (SFT, RLHF, DPO) 
-👉 [View Repository](https://github.com/sri-godugu/gen-align)
+- JAX/Flax framework for aligning generative models (SFT, RLHF, DPO) 👉 [View Repository](https://github.com/sri-godugu/gen-align)
 
 🔹VLM Prompting Toolkit
-- Benchmarking prompting strategies across GPT-4o, LLaVA, BLIP-2
-👉 [View Repository](https://github.com/sri-godugu/vlm-prompting-toolkit)
+- Benchmarking prompting strategies across GPT-4o, LLaVA, BLIP-2 👉 [View Repository](https://github.com/sri-godugu/vlm-prompting-toolkit)
 
 ---
 
 ### Audio & NLP systems
 🔹Speech Recognition Pipeline
-- Whisper-based real-time transcription  
-👉 [View Repository](https://github.com/sri-godugu/speech-recognition-transcription-pipeline)
+- Whisper-based real-time transcription 👉 [View Repository](https://github.com/sri-godugu/speech-recognition-transcription-pipeline)
 
 🔹Neural TTS
-- VITS-style text-to-speech with speaker conditioning 
-👉 [View Repository](https://github.com/sri-godugu/neural-tts-audio-generation)
+- VITS-style text-to-speech with speaker conditioning 👉 [View Repository](https://github.com/sri-godugu/neural-tts-audio-generation)
 
 ---
 
