@@ -30,7 +30,7 @@ I am a PhD researcher working on robust perception systems for autonomous vehicl
 
 ---
 
-## 🔥 Featured Projects
+## Featured Projects
 
 ### 🔹 Clear-Gen: Multimodal Reconstruction for Robust Perception
 Deep learning framework to reconstruct clean visual representations from degraded camera inputs using LiDAR BEV and radar  
