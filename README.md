@@ -97,7 +97,6 @@ Python | PyTorch | JAX | OpenCV | CUDA | C++
 ---
 
 ## Links
-- Google Scholar: https://scholar.google.com/citations?hl=en&user=hgg6yKwAAAAJ  
 - GitHub: https://github.com/sri-godugu  
 - LinkedIn: https://www.linkedin.com/in/sri-alekhya-g/ 
 - Email: srialekhyag@gmail.com / hc0327@wayne.edu
