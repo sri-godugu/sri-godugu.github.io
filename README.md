@@ -84,7 +84,8 @@ Structure-from-Motion pipeline for reconstructing 3D scenes from multi-view imag
 ---
 
 ## Publications
-- *The Static Fusion Paradox: A Degradation-Centric Survey of Multimodal Perception in Adverse Weather* — IEEE IVS 2026 (Accepted)  
+- S. A. Godugu, "The Static Fusion Paradox: A Degradation-Centric Survey of Multimodal Perception in Adverse Weather," 2026 IEEE Intelligent Vehicles Symposium (IV), Plymouth, MI, USA, 2026, pp. 2075-2081, doi: 10.1109/IV66570.2026.11624098. keywords: {Meteorology;Modeling;Weather;Weathering;Degradation;Image sensors;Printing;Architecture;Computer architecture;Sensor fusion;Autonomous vehicles;multimodal sensor fusion;adverse weather;deep learning;LiDAR;camera;radar;perception;asymmetric degradation;weather-adaptive fusion;attention mechanisms;generative restoration},
+
 - *The Architectural Parity Principle: Understanding Cross-Modal Correspondence in Multi-Modal Fusion* - ECCV 2026 (Under Review)
 - *The Reliability Prior — Reliability under Uncertainty must precede Optimization* — ICML 2026 (Positive Reviews)
 - *HYDRABOT: Entropy-Gated Multitask Imitation Learning* - IROS 2026 (Under Review)
